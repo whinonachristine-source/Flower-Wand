@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "flowerwand",
+  "version": "${version}",
+  "name": "Flower Wand",
+  "description": "A cute magic wand that grows flowers around you with a sparkle of pink particles.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.flowerwand.FlowerWandMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
